@@ -1,0 +1,21 @@
+pipeline{
+    agent any
+    stages{
+        stage("Welcome to stage One"){
+            steps{
+                echo "Welcome to stage One"   
+            }
+            }
+        
+            stage("Welcome to stage Two"){
+                steps{
+                    echo "Welcome to stage two"   
+            }
+            }
+            stage("Welcome to stage Three"){
+                steps{
+                    echo "Welcome to stage three"   
+            }
+            }
+    }
+}
